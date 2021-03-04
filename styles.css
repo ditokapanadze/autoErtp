@@ -1,0 +1,391 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 8.43%;
+   margin-right: 9.5%;
+   
+}
+
+.nav-ul{
+    display: flex;
+  
+    
+}
+.nav-ul li a{
+    margin-left: 6.25rem;
+}
+
+.grade{
+    margin-left: 8.43%;
+   
+    max-width: 530px;
+}
+
+.grade h1{
+    font-family: 'BPG Nino Mtavruli';
+    font-size: 2.25rem;
+}
+
+.grade p{
+    font-family: 'FiraGO-Book';
+    font-size: 1.125rem;
+    margin-left: 5px;
+}
+.grade button{
+    cursor: pointer;
+    padding: 11.6px;
+    width: 48.19%;
+    font-size: 1.375rem;
+    background: transparent linear-gradient(270deg, #F19767 0%, #F8B963 100%) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    border-style: none;
+}
+
+
+.second-container{
+    margin-bottom: 128px;
+    width: 80.54%;
+    background-color: violet;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.second-container p{
+    width: 464px;
+    background-color: yellowgreen;
+}
+
+.photo2{
+
+    
+   width: 541px;
+   margin-left:8.375vw ;
+   background-color: teal;
+  
+}
+
+.third-container{
+    background-color: #F19867;
+    display: flex;
+    width: 82%;
+    margin: 0 auto;
+    margin-top: 128px;
+}
+
+.third-container h2{
+    font-size: 1.75rem;
+    margin-left:8.375vw ;
+}
+.third-container-photo{
+    background-color: aqua;
+    width: 548px;
+}
+
+.third-container p{
+    margin-left:8.375vw ;
+    width: 487px;
+    background-color: yellowgreen;
+    color: #454545;
+    
+}
+
+.table-title{
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.42px;
+   color: #454545;
+   font-weight: bold;
+   margin-top: 100px;
+}
+.table{
+   
+   
+    width: 68.75%;
+   margin: 0 auto;
+  
+   margin-bottom: 70px;
+   display: flex;
+   
+    /* display: grid; */
+    flex-wrap: wrap;
+   border-radius: 15px;
+    
+    
+}
+.table div{
+    border: 1px white solid;
+    height: 59.2px;
+    background-color: aqua;
+    
+    
+}
+.table p{
+    margin: 0;
+    border: 1px white solid;
+    height: 59.2px;
+    background-color: aqua;
+    width: calc(20% - 2px);
+    
+    align-items: center;
+    color: #666666;
+    background: #E8EAEB;
+    display: flex;
+    text-align: left;
+    
+   
+  
+}
+
+.table p:nth-child(-n+5){
+    background-color: #DCE4ED ;
+    color: #454545;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
+.table p:nth-child(1){
+    border-top-left-radius: 15px;
+}
+.table p:nth-child(56){
+    border-bottom-left-radius: 15px;
+}
+.table p:nth-child(5){
+    border-top-right-radius: 15px;
+}
+
+.table p:last-child{
+    border-bottom-right-radius: 15px;
+}
+
+.table p span{
+  
+    margin-left: 25px;
+}
+
+.sighns{
+    font-weight: 900;
+    font-size: 20px;
+    color: #454545  !important;
+    margin-left: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+.table2 div:nth-child(1){
+    border-top-left-radius: 15px;
+}
+.table2 div:nth-child(10){
+    border-bottom-left-radius: 15px;
+}
+.table2 div:nth-child(3){
+    border-top-right-radius: 15px;
+}
+
+.table2 div:last-child{
+    border-bottom-right-radius: 15px;
+}
+
+
+.table2{
+    margin-top: 100px;
+    width: 68.75%;
+    margin: 0 auto;
+ 
+    border-radius: 15px;
+    opacity: 0.73;
+    display: flex;
+    flex-wrap: wrap;
+   margin-bottom: 100px;
+}
+
+.table2-title{
+    font-size: 1.25rem;
+    margin-left: 16vw ;
+    color: #454545;
+    margin-bottom: 40px;
+
+}
+
+.table2 div{
+    height: 99.25px;
+    width: calc(33.33% - 2px);
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    background: #DCE4ED 0% 0% no-repeat padding-box;
+}
+.table2 p{
+    color: #454545;
+    margin-left: 5rem;
+}
+
+.contact-form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 29.9%;
+    justify-content: space-between;
+    margin-bottom: 110px ;
+    
+}
+.form {
+    
+   
+}
+form input{
+    width: 98%;
+    
+}
+form button{
+    width: 100%;
+    height: 47.23px;
+    border-radius: 15px;
+    border: none;
+    background: transparent linear-gradient(270deg, #F19867 0%, #F8B863 100%) 0% 0% no-repeat padding-box;
+}
+
+form input{
+    margin-bottom: 10px;
+    border-radius: 25px;
+    height: 40px;
+    border: 1px solid #707070;
+}
+input:focus{
+    outline: none;
+}
+.message-box{
+    height: 97px;
+}
+.contact-form  h2{
+    text-align: center;
+    line-height: 0;
+    
+    margin-bottom: 10px;
+}
+.contact-form p{
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #454545;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+   
+}
+
+footer{
+    background: transparent linear-gradient(180deg, #5A1859 0%, #6F1B54 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    display: flex;
+    color: #FFFFFF;
+    width: 100%;
+    
+
+}
+
+.contact-ul{
+    margin-left: 6vw;
+    opacity: 0.7;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.contact-ul li{
+    margin-bottom: 30px;
+}
+
+.footer-right{
+    display: flex;
+   margin-right: 10vw;
+    flex-direction: column;
+   align-items: center;
+   margin-left: 7vw;
+}
+
+.footer-right p:last-child{
+    margin-top: 17vw;
+}
+.footer-right p{
+    
+    margin-bottom: 10px;
+    margin-top: 3vw;
+}
+
+
+.social-ul{
+  
+   margin-top: 0;
+   display: flex;
+ 
+}
+.fab{
+    color: white;
+     font-size: 24px;
+     background: transparent url('img/twitter__x2C__social__x2C__media_x2C__icons_x2C_.png') 0% 0% no-repeat padding-box;
+opacity: 0.5;
+ }
+
+.social-ul li{
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.middle-section{
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 2.5vw;
+  
+    
+}
+
+.middle-section ul{
+    margin: 0;
+    margin-right: 5vw;
+}
+
+
+.middle-section p{
+    color: #F5F5F5;
+    opacity: 0.7;;
+    margin: 8px;
+}
+
+
+.middle-section p span{
+    
+    font-size: 1.125rem;
+    line-height: 3;
+   
+}
+
+.middle-section ul li a{
+     color: violet;
+    margin-bottom: 60px;
+
+}
+
