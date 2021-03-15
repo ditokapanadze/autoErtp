@@ -26,6 +26,12 @@ header{
    
 }
 
+.logo{
+    margin-top: 25px;
+    margin-left: 1.3vw;
+
+}
+ 
 .header-logo{
     width: 7rem;
 }
