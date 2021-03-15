@@ -76,7 +76,7 @@ header{
 .first-container{
     display: flex;
     
-    margin-bottom: 50px;
+    
     justify-content: flex-end;
     height: 40vw;
     position: relative;
@@ -96,7 +96,7 @@ header{
 }
 
 .second-container{
-    margin-bottom: 128px;
+    
     width: 80.54%;
     height: 600px;
    
@@ -140,11 +140,12 @@ header{
 }
 
 .third-container{
-    
+   
     display: flex;
+    justify-content: space-between;
     width: 82%;
     margin: 0 auto;
-    margin-top: 128px;
+    margin-top: 20px;
 }
 
 .third-container h2{
@@ -159,10 +160,10 @@ header{
     width: 100%;
 }
 .third-container p{
-    margin-left:8.375vw ;
+    margin-left: 8.375vw ;
     width: 487px;
     line-height: 1.7;
-    
+    font-size: 14px;
     color: #454545;
     
 }
@@ -461,6 +462,24 @@ footer{
     }
 }
 
+@media (max-width: 1350px){
+    .photo2{
+        margin-left: 5vw;
+    }
+    .third-container p{
+        margin-left: 5vw;
+    }
+
+}
+@media (max-width: 1255px){
+    .photo2{
+        margin-left: 2vw;
+    }
+    .third-container p{
+        margin-left: 2vw;
+    }
+}
+
 @media (max-width: 1245px){
     .footer-right{
         margin-left: 1.5vw;
@@ -470,5 +489,11 @@ footer{
     }
     .middle-section ul{
         margin-right: 3vw;
+    }
+}
+
+@media (max-width: 929px){
+    .footer{
+       width: 500px !important; 
     }
 }
