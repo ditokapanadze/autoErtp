@@ -24,7 +24,11 @@ header{
    margin-left: 8.43%;
    margin-right: 9.5%;
    
-}v
+}
+
+.header-logo{
+    width: 7rem;
+}
 
 .nav-ul{
     display: flex;
@@ -32,24 +36,31 @@ header{
     
 }
 .nav-ul li a{
-    margin-left: 6.25rem;
+    margin-left: 4rem;
+    color: #454545;
 }
 
 .grade{
     margin-left: 8.43%;
-   
-    max-width: 530px;
+    
+    max-width: 500px;
+    height: 300px;
+   position: absolute;
+   left: 20px;
+   top: 110px;
 }
 
 .grade h1{
     font-family: 'BPG Nino Mtavruli';
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 .grade p{
     font-family: 'FiraGO-Book';
     font-size: 1.125rem;
     margin-left: 5px;
+    font-size: 16px;
+    
 }
 .grade button{
     cursor: pointer;
@@ -62,30 +73,74 @@ header{
 }
 
 
+.first-container{
+    display: flex;
+    
+    margin-bottom: 50px;
+    justify-content: flex-end;
+    height: 40vw;
+    position: relative;
+}
+
+.first-background{
+    
+    width: 60%;
+    height: 100%;
+    margin-right: 0px;
+    
+}
+.first-background-img{
+   
+    width: 100%;
+   
+}
+
 .second-container{
     margin-bottom: 128px;
     width: 80.54%;
-    background-color: violet;
+    height: 600px;
+   
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.second-container p{
-    width: 464px;
-    background-color: yellowgreen;
+
+.secon-container-text span{
+    margin-top: 5rem;
+    
+}
+.secon-container-text span {
+    display: block;
+    margin-top: 30px;
+ }
+
+.second-backghround{
+    width: 100%;
 }
 
+.second-container p{
+    width: 464px;
+    height: 500px;
+    line-height: 1.65;
+    
+    font-size: 14px;
+    
+}
+
+.second-container h2{
+    font-family: "BPG Nino Mtavruli", sans-serif;
+
+}
 .photo2{
 
     
    width: 541px;
    margin-left:8.375vw ;
-   background-color: teal;
-  
+ 
 }
 
 .third-container{
-    background-color: #F19867;
+    
     display: flex;
     width: 82%;
     margin: 0 auto;
@@ -97,14 +152,17 @@ header{
     margin-left:8.375vw ;
 }
 .third-container-photo{
-    background-color: aqua;
+    
     width: 548px;
 }
-
+.third-background{
+    width: 100%;
+}
 .third-container p{
     margin-left:8.375vw ;
     width: 487px;
-    background-color: yellowgreen;
+    line-height: 1.7;
+    
     color: #454545;
     
 }
@@ -117,9 +175,13 @@ header{
    color: #454545;
    font-weight: bold;
    margin-top: 100px;
+   text-transform: uppercase;
+  
+   font-family: "BPG Nino Mtavruli", sans-serif;
+
 }
 .table{
-   
+    box-shadow: 0px 6px 12px #00000029;
    
     width: 68.75%;
    margin: 0 auto;
@@ -134,18 +196,18 @@ header{
     
 }
 .table div{
-    border: 1px white solid;
+    border-top: 1px white solid;
     height: 59.2px;
-    background-color: aqua;
+    
     
     
 }
 .table p{
     margin: 0;
-    border: 1px white solid;
+    border-top: 1px white solid;
     height: 59.2px;
-    background-color: aqua;
-    width: calc(20% - 2px);
+  
+    width: 20%;
     
     align-items: center;
     color: #666666;
@@ -214,7 +276,7 @@ header{
     margin-top: 100px;
     width: 68.75%;
     margin: 0 auto;
- 
+    box-shadow: 0px 6px 12px #00000029;
     border-radius: 15px;
     opacity: 0.73;
     display: flex;
@@ -232,8 +294,8 @@ header{
 
 .table2 div{
     height: 99.25px;
-    width: calc(33.33% - 2px);
-    border: 1px solid white;
+    width: 33.33%;
+    border-top: 1px solid white;
     display: flex;
     align-items: center;
     background: #DCE4ED 0% 0% no-repeat padding-box;
@@ -300,92 +362,113 @@ form{
 }
 
 footer{
+    width: 100%;
+    height: 360px;
     background: transparent linear-gradient(180deg, #5A1859 0%, #6F1B54 100%) 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
     color: #FFFFFF;
-    width: 100%;
     
-
-}
-
-.contact-ul{
-    margin-left: 6vw;
-    opacity: 0.7;
-    margin-top: 70px;
-    margin-bottom: 50px;
-}
-
-.contact-ul li{
-    margin-bottom: 30px;
-}
-
-.footer-right{
-    display: flex;
-   margin-right: 10vw;
-    flex-direction: column;
-   align-items: center;
-   margin-left: 7vw;
-}
-
-.footer-right p:last-child{
-    margin-top: 17vw;
-}
-.footer-right p{
-    
-    margin-bottom: 10px;
-    margin-top: 3vw;
-}
-
-
-.social-ul{
-  
-   margin-top: 0;
-   display: flex;
- 
-}
-.fab{
-    color: white;
-     font-size: 24px;
-     background: transparent url('img/twitter__x2C__social__x2C__media_x2C__icons_x2C_.png') 0% 0% no-repeat padding-box;
-opacity: 0.5;
- }
-
-.social-ul li{
-    margin-left: 0px;
-    margin-right: 20px;
-}
-.middle-section{
-    display: flex;
-    margin-left: 10vw;
-    margin-top: 2.5vw;
-  
-    
-}
-
-.middle-section ul{
-    margin: 0;
-    margin-right: 5vw;
-}
-
-
-.middle-section p{
-    color: #F5F5F5;
-    opacity: 0.7;;
-    margin: 8px;
-}
-
-
-.middle-section p span{
-    
-    font-size: 1.125rem;
-    line-height: 3;
    
 }
 
-.middle-section ul li a{
-     color: violet;
-    margin-bottom: 60px;
+.middle-section{
+    opacity: 0.7;
+    display: flex;
+    margin-top: 40px;
 
 }
 
+
+.middle-section ul{
+    margin-top: 0;
+    margin-right: 5vw;
+   
+    width: 500x;
+}
+.middle-section ul li a{
+    color: #FFFFFF;
+   
+}
+.middle-section ul li a p{
+    margin: 0 0 8px 0;
+    
+    width: 150px;
+
+}
+.middle-section ul li a p span{
+    font-size: 1.25rem;
+    line-height: 2.5;
+    
+   
+}
+.contact-ul{
+    margin-left: 4vw;
+    margin-right: 12vw;
+    opacity: 0.7;
+}
+
+.footer-right{
+    opacity: 0.7;
+    margin-left: 6vw;
+    margin-top: 45px;
+    
+    min-width: 200px;
+    margin-right: 40px;
+    
+}
+
+.footer-right p:first-child{
+    margin-left: 40px;
+}
+
+.footer-right p:last-child{
+    margin-top: 180px;
+}
+
+.social-ul{
+    display: flex;
+}
+
+.social-ul li{
+    margin-right: 20px;
+}
+
+.social-ul li i{
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0.7;
+}
+
+.footer-logo{
+    height: 70px;
+    margin-top: 40px ;
+    margin-bottom: 5px;
+}
+
+.contact-ul p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+@media (max-width: 1474px){
+    .footer-right{
+        margin-left: 3vw;
+    }
+    .contact-ul{
+        margin-right: 4vw;
+    }
+}
+
+@media (max-width: 1245px){
+    .footer-right{
+        margin-left: 1.5vw;
+    }
+    .contact-ul{
+        margin-right: 2vw;
+    }
+    .middle-section ul{
+        margin-right: 3vw;
+    }
+}
