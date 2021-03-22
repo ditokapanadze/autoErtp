@@ -9,7 +9,9 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
-
+.button{
+    outline: none;
+}
 
 ul{
     list-style: none;
@@ -76,6 +78,7 @@ header{
     background: transparent linear-gradient(270deg, #F19767 0%, #F8B963 100%) 0% 0% no-repeat padding-box;
     border-radius: 20px;
     border-style: none;
+    outline: none;
 }
 
 
@@ -466,6 +469,7 @@ footer{
     .contact-ul{
         margin-right: 4vw;
     }
+    
 }
 
 @media (max-width: 1350px){
@@ -496,7 +500,27 @@ footer{
     .middle-section ul{
         margin-right: 3vw;
     }
+   .table p span{
+       font-size: 15px;
+   }
+  
+   .grade h1{
+       font-size: 24px;
+   }
+   .grade p{
+       font-size: 16px;
+   }
 }
+
+@media (max-width: 1185px){
+   .table p span{
+       font-size: 14px !important;
+   }
+   .table2 p{
+    font-size: 14px !important;
+   }
+}
+
 
 @media (max-width: 929px){
     .footer{
